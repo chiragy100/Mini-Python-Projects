@@ -40,5 +40,5 @@ while True:
             print(f"{order.title()} (x{quantity}): ${price:.2f}")
         print(f"Total: ${total:.2f}")
     elif option == 4:
-        quit()
+        print(order)
 
